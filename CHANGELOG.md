@@ -3,7 +3,8 @@
 This file documents all notable changes to the GEOS-Chem repository starting in version 14.0.0, including all GEOS-Chem Classic and GCHP run directory updates.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
+### Added
+- Added levoglucosan emission and chemical process from Li et al (2021)
 ## [14.5.3] - 2025-03-04
 ### Changed
 - Changed CESM `HEMCO_Config.rc` to read 3D AEIC emissions every timestep to avoid differences upon restart
